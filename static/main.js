@@ -1,9 +1,7 @@
-$('a.someclass').click(function(e)
+$('a.generate').click(function(e)
 {
-    // Special stuff to do when this link is clicked...
-
+    alert("HELLO")
     // Cancel the default action
     e.preventDefault();
 });
 
-alert("YHEAH!")
